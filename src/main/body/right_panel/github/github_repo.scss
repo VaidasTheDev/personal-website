@@ -1,0 +1,16 @@
+
+.GithubRepo-root {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  &:first-child {
+    padding-top: 0;
+  }
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.GithubRepo-header {
+  font-size: 1.2rem !important;
+}
