@@ -5,7 +5,7 @@ import './right_panel.scss';
 import Projects from './projects/Projects';
 import GithubRepo from './github/GithubRepo';
 import PanelSection from './section/PanelSection';
-import data from 'main/data/data';
+import data from 'data/data';
 
 function RightPanel(props) {
 

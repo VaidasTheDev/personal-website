@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Internal imports
-import data from 'main/data/data';
+import data from 'data/data';
 import PanelSection from 'main/body/right_panel/section/PanelSection';
 import ProjectItem from './item/ProjectItem';
 

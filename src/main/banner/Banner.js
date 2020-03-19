@@ -11,7 +11,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 // Internal imports
 import styles from './bannerStyles';
-import data from 'main/data/data';
+import data from 'data/data';
 import AvatarImage from 'images/me.png';
 import StackOverflowSvg from 'svgs/stackoverflow.svg';
 

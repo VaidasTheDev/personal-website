@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styles from './bodyStyles';
-import data from 'main/data/data';
+import data from 'data/data';
 import BodySection from './section/BodySection';
 import SectionItem from './section/item/SectionItem';
 
