@@ -3,8 +3,9 @@
 React-based DB-free personal website application. Add your data, build and deploy.
 
 ## Preview
-[whole_page]: https://github.com/VaidasTheDev/personal-website/tree/master/src/images/readme-1.png "Whole page"
-[body_content]: https://github.com/VaidasTheDev/personal-website/tree/master/src/images/readme-2.png "Body content"
+![whole_page](src/images/readme-1.png)
+
+![body_content](src/images/readme-2.png)
 
 ## How it works
 
