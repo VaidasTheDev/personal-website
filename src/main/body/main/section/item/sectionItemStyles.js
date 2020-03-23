@@ -1,7 +1,7 @@
 
 import { makeStyles } from '@material-ui/core/styles';
 
-const styles = makeStyles(theme => ({
+const styles = makeStyles({
   root: {
     display: 'flex',
     flexDirection: 'column',
@@ -15,7 +15,8 @@ const styles = makeStyles(theme => ({
     }
   },
   chip: {
-    marginRight: theme.spacing(1),
+    marginTop: '0.5rem',
+    marginRight: '0.5rem',
     '&:last-child': {
       marginRight: 0
     },
@@ -30,12 +31,10 @@ const styles = makeStyles(theme => ({
   description: {
     marginTop: '0.5rem'
   },
-  headerWrapper: {
-    display: 'flex'
-  },
   caption: {
-    marginLeft: 'auto'
+    fontWeight: '500',
+    opacity: 0.8
   }
-}));
+});
 
 export default styles;

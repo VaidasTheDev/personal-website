@@ -5,32 +5,30 @@ import {
   Typography
 } from '@material-ui/core';
 
-import styles from './styles';
+import styles from './sectionItemStyles';
 
 function SectionItem(props) {
   const classes = styles(props);
   return (
     <div className={classes.root}>
-      <div className={classes.headerWrapper}>
-        <Typography
-          variant="subtitle1"
-        >
-          {props.header}
-        </Typography>
-        {props.meta ? (
-          <Typography
-            className={classes.caption}
-            variant="caption"
-          >
-            {props.meta}
-          </Typography>
-        ) : null}
-      </div>
+      <Typography
+        variant="subtitle1"
+      >
+        {props.header}
+      </Typography>
       {props.subheader ? (
         <Typography
           variant="subtitle2"
         >
           {props.subheader}
+        </Typography>
+      ) : null}
+      {props.meta ? (
+        <Typography
+          className={classes.caption}
+          variant="caption"
+        >
+          {props.meta}
         </Typography>
       ) : null}
       <Typography

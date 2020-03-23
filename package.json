@@ -11,6 +11,7 @@
     "axios": "^0.19.2",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
+    "react-device-detect": "^1.11.14",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
     "react-svg": "^11.0.14"
