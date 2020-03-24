@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { isMobile } from 'react-device-detect';
 
-import './right_panel.scss';
+import styles from './rightPanelStyles';
 import Projects from './projects/Projects';
 import GithubRepo from './github/GithubRepo';
 import PanelSection from './section/PanelSection';
 import data from 'data/data';
 
 function RightPanel(props) {
+  const classes = styles(props);
+
+  const rootClassName = isMobile ? classes.root + ' mobile' : classes.root;
 
   const [publicRepos, setPublicRepos] = useState(null);
 
@@ -24,7 +28,7 @@ function RightPanel(props) {
   }
 
   return (
-    <div className="RightPanel-root">
+    <div className={rootClassName}>
       <Projects />
       <PanelSection title="Open Source">
         {publicRepos ? (

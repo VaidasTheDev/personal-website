@@ -9,16 +9,11 @@ const styles = makeStyles(theme => ({
     padding: theme.spacing(2),
     color: 'white',
     display: 'flex',
-    alignItems: 'center'
-  },
-  buttonLinkedIn: {
-    backgroundColor: theme.palette.linkedIn.main
-  },
-  buttonGitHub: {
-    backgroundColor: theme.palette.github.main
-  },
-  buttonStackOverflow: {
-    backgroundColor: theme.palette.stackOverflow.main
+    alignItems: 'center',
+    '&.mobile': {
+      flexDirection: 'column',
+      alignItems: 'center'
+    }
   },
   avatar: {
     width: theme.spacing(25),
@@ -28,7 +23,10 @@ const styles = makeStyles(theme => ({
   intro: {
     padding: theme.spacing(1),
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    '&.mobile': {
+      alignItems: 'center'
+    }
   },
   subheader: {
     fontWeight: 'bold',
@@ -37,7 +35,10 @@ const styles = makeStyles(theme => ({
   headerDesc: {
     marginTop: theme.spacing(1),
     marginBottom: theme.spacing(1),
-    fontSize: '1rem'
+    fontSize: '1rem',
+    '&.mobile': {
+      textAlign: 'center'
+    }
   },
   buttons: {
     marginTop: theme.spacing(1),
@@ -47,14 +48,6 @@ const styles = makeStyles(theme => ({
         marginRight: 0
       }
     }
-  },
-  svg: {
-    width: '20px',
-    height: '20px',
-    fill: 'blue',
-    color: 'blue',
-    marginLeft: '-4px',
-    marginRight: '8px'
   }
 }));
 

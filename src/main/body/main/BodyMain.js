@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './bodyStyles';
+import styles from './bodyMainStyles';
 import data from 'data/data';
 import BodySection from './section/BodySection';
 import SectionItem from './section/item/SectionItem';
