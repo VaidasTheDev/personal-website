@@ -11,16 +11,22 @@ Since the application is DB-free, the data is loaded from populated constants st
 Components are auto-generated with the data you provide.
 
 ## Preview
-### Web
-![web_banner](src/images/web-banner.png)
-![web_body](src/images/web-body.png)
-### Mobile
-![mobile_banner](src/images/mobile-banner.png)
-![mobile_body](src/images/mobile-body.png)
+
+Preview of the look on computer and mobile screens, respectively.
+
+### Computer
 <p align="center">
-  <img src="src/images/mobile-banner.png">
+  <img src="src/images/web-banner.png">
 </p>
 <p align="center">
+  <img src="src/images/web-body.png">
+</p>
+
+### Mobile
+<p>
+  <img src="src/images/mobile-banner.png">
+</p>
+<p>
   <img src="src/images/mobile-body.png">
 </p>
 
