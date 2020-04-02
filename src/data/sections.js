@@ -1,82 +1,41 @@
 
-const sgdigitalListItems = [
-  "Working in a product team with agile methodologies",
-  "Delivering brand new features and providing support",
-  "Own a front-end AngularJS / React component"
-];
-
-const universityListItems = [
-  "Programming I-III (focus on Java), Cloud Application Development, Game Design and Development",
-  "Algorithmics, Intelligent Systems, Data Management",
-  "Software Modelling & Design, Programming Language Concepts & Interaction Design"
-];
-
-const projectTopfindListItems = [
-  "Developed multiple web scrapping applications with JSOUP for gathering publicly available data",
-  "Created a Spring application for gathering data using web scrappers and updating it in the database periodically",
-  "API written using Java and Spring Boot"
-];
-
-const sgdigitalChips = [
-  {
-    label: "Java 8",
-    type: "primary"
-  },
-  {
-    label: "Spring",
-    type: "primary"
-  },
-  {
-    label: "JavaScript",
-    type: "secondary"
-  },
-  {
-    label: "React",
-    type: "secondary"
-  },
-  {
-    label: "Apache Cassandra",
-    type: "secondary"
-  }
-];
-
-const topfindChips = [
-  {
-    label: "Java 13",
-    type: "primary"
-  },
-  {
-    label: "Spring",
-    type: "primary"
-  },
-  {
-    label: "JavaScript",
-    type: "primary"
-  },
-  {
-    label: "React",
-    type: "primary"
-  },
-  {
-    label: "Mapbox",
-    type: "secondary"
-  },
-  {
-    label: "PostgreSQL 11",
-    type: "secondary"
-  }
-];
-
 const sections = [
   {
     header: "Experience",
     items: [
       {
-        header: "Software Engineer",
-        subheader: "S.G. Digital",
-        meta: "09/2018 - Present",
-        listItems: sgdigitalListItems,
-        chips: sgdigitalChips
+        header: "Position Title",
+        subheader: "Company Name",
+        meta: "01/2018 - 01/2020",
+        listItems: [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          "Suspendisse rutrum lorem nec tellus maximus, ut tincidunt tortor tempus",
+          "Vestibulum pretium magna vel nunc ultrices, a auctor sapien sollicitudin",
+          "Nulla ac libero eu lacus blandit vestibulum",
+          "Donec non mi vehicula, aliquet justo sed, ornare elit"
+        ],
+        chips: [
+          {
+            label: "Primary Skill 1",
+            type: "primary"
+          },
+          {
+            label: "Primary Skill 2",
+            type: "primary"
+          },
+          {
+            label: "Secondary Skill 1",
+            type: "secondary"
+          },
+          {
+            label: "Secondary Skill 2",
+            type: "secondary"
+          },
+          {
+            label: "Secondary Skill 3",
+            type: "secondary"
+          }
+        ]
       }
     ]
   },
@@ -84,11 +43,70 @@ const sections = [
     header: "Projects",
     items: [
       {
-        header: "TopFind",
-        meta: "10/2019 - Present",
-        description: "An interactive map application for finding most profitable regions in UK for buying real estate to let.",
-        listItems: projectTopfindListItems,
-        chips: topfindChips
+        header: "Project Name",
+        meta: "01/2018 - 01/2020",
+        description: "A short summary about the project.",
+        listItems: [
+          "Nullam mattis eros sit amet sapien ornare, tincidunt luctus diam suscipit",
+          "Fusce tempor velit dignissim augue efficitur laoreet",
+          "Donec a metus tempor, sagittis nisi hendrerit, ullamcorper arcu",
+          "Suspendisse et erat vestibulum, consequat enim sed, varius quam"
+        ],
+        chips: [
+          {
+            label: "Primary Skill 1",
+            type: "primary"
+          },
+          {
+            label: "Primary Skill 2",
+            type: "primary"
+          },
+          {
+            label: "Secondary Skill 1",
+            type: "secondary"
+          },
+          {
+            label: "Secondary Skill 2",
+            type: "secondary"
+          },
+          {
+            label: "Secondary Skill 3",
+            type: "secondary"
+          }
+        ]
+      },
+      {
+        header: "Project Name",
+        meta: "01/2018 - 01/2020",
+        description: "A short summary about the project.",
+        listItems: [
+          "Nullam mattis eros sit amet sapien ornare, tincidunt luctus diam suscipit",
+          "Fusce tempor velit dignissim augue efficitur laoreet",
+          "Donec a metus tempor, sagittis nisi hendrerit, ullamcorper arcu",
+          "Suspendisse et erat vestibulum, consequat enim sed, varius quam"
+        ],
+        chips: [
+          {
+            label: "Primary Skill 1",
+            type: "primary"
+          },
+          {
+            label: "Primary Skill 2",
+            type: "primary"
+          },
+          {
+            label: "Secondary Skill 1",
+            type: "secondary"
+          },
+          {
+            label: "Secondary Skill 2",
+            type: "secondary"
+          },
+          {
+            label: "Secondary Skill 3",
+            type: "secondary"
+          }
+        ]
       }
     ]
   },
@@ -96,11 +114,15 @@ const sections = [
     header: "Education",
     items: [
       {
-        header: "BSc Computer Science",
-        subheader: "University of Southampton",
+        header: "Course Name",
+        subheader: "Education Institution",
         meta: "2015 - 2018",
-        description: "Degree topics include:",
-        listItems: universityListItems
+        description: "Degree modules:",
+        listItems: [
+          "Module 1, Module 2, Module 3",
+          "Module 4, Module 5, Module 6",
+          "Module 7, Module 8, Module 9"
+        ]
       }
     ]
   },

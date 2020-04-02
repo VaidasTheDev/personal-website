@@ -10,13 +10,13 @@
 
 export default [
   {
-    header: "TopFind",
-    link: "https://topfind.io", // Optional
-    description: "Interactive map that shows most profitable regions for real estate investment"
+    header: "Active Project 1",
+    link: "#", // Optional
+    description: "A short description about the project"
   },
   {
-    header: "vaidasthedev.com",
-    link: "https://vaidasthedev.com", // Optional
-    description: "This website!"
+    header: "Active Project 2",
+    link: "#", // Optional
+    description: "A short description about the project"
   }
 ];

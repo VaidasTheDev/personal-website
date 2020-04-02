@@ -16,7 +16,7 @@ import githubDetails from 'data/details/github';
 export default [
   {
     type: "linkedin",
-    link: "https://www.linkedin.com/in/vaidas-vaitkevicius-52ab51b5/",
+    link: "#",
     label: "LinkedIn"
   },
   {
@@ -26,7 +26,7 @@ export default [
   },
   {
     type: "stackoverflow",
-    link: "https://stackoverflow.com/users/7389282/curiousdev",
+    link: "#",
     label: "Stack Overflow"
   }
 ];

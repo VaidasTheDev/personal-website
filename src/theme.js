@@ -53,7 +53,6 @@ const pwTheme = createMuiTheme({
     },
     MuiPaper: {
       root: {
-        boxShadow: '0px 0px 6px rgba(0, 0, 0, 0.18) !important',
         border: '1px solid rgba(0, 0, 0, 0.18)'
       }
     },
