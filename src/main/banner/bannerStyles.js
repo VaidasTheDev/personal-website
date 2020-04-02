@@ -5,7 +5,7 @@ const styles = makeStyles(theme => ({
   root: {
     maxHeight: '20%',
     position: 'relative',
-    backgroundColor: '#32305e',
+    backgroundColor: '#4a4a96',
     padding: theme.spacing(2),
     color: 'white',
     display: 'flex',
